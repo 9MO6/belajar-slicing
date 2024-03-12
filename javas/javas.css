@@ -254,6 +254,7 @@
 
 .grid-kiri {
     width: 50%;
+    display: ;
 }
 
 .grid-kiri-atas {
@@ -276,6 +277,8 @@
     top: 0;
     bottom: 0;
     flex-direction: column;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 75);
 
 }
 .timbul .atas {
@@ -299,15 +302,79 @@
      fill: #ffffff;
 }
 
-.grid-kiri-bawah1 img {
+.grid-kiri-bawah1 {
+    flex-direction: column;
+    width: 50%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #fff;
+    position: relative;
+    float: left;
+    background-image: url(img/Konten\ Gambar\ Website_page-0002.jpg);
+    background-color: #fff;
+}
 
+.grid-kiri-bawah2  {
+    flex-direction: column;
+    width: 50%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #fff;
+    position: relative;
+    float: right;
+    background-image: url(img/Konten\ Gambar\ Website_page-0003.jpg);
+    background-color: #fff;
+}
+
+.grid-tengah {
+    width: 25%;
+}
+.grid-tengah-atas {
+    background-color: #fff;
+    background-image: url(img/Konten\ Gambar\ Website_page-0004.jpg);
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #fff;
+    position: relative;
+}
+
+.grid-tengah-bawah {
+    background-color: #fff;
+    background-image: url(img/Konten\ Gambar\ Website_page-0006.jpg);
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #fff;
+    position: relative;
+}
+
+.grid-kanan {
+    width: 100%;
+    
+}
+.grid-kanan1 {
+    background-image: url(img/Konten\ Gambar\ Website_page-0005.jpg);
+    background-color: #fff;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #fff;
+    position: relative;
 }
 
 
-
-
+/* 
 .timbul :hover {
     background-color: rgba(0, 0, 0, .75);
-}
+} */
 
 /* halaman 3 */
