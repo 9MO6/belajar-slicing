@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.posisi {
+    /* width: 100px; */
+    /* height: 100px; */
+    background-color: blue;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    /* top: -50px; */
+    border-radius: 50%;
+    margin: auto;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+}
+
+.posisi2 {
+    width: 200px;
+    height: 70px;
+    background-color: red;
+}
+
+.posisi3 {
+    width: 200px;
+    height: 70px;
+    background-color: yellow;
+    position: fixed;
+    left: 50%;
+    top: 20%;
+}
+
+.posisi4 {
+    width: 500px;
+    height: 300px;
+    background-color: green;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 90px;
+    text-align: center;
+    padding: 100px;
+}
