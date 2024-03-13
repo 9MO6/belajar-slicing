@@ -171,13 +171,18 @@
 
 .content .icon {
     border-radius: 50%;
-    background-color: #eda1b9;
+    background-color: #ffe8ef;
     width: 60px;
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
 }
 
 .content1 {
@@ -238,7 +243,7 @@
     background-color: #ffffff;
     border: 1px solid #e71e5f;
     padding: 10px 25px;
-    border-radius: 5%;
+    border-radius: 5px;
     display: inline-block;
     font-weight: 400 ;
     font-size: 14px;
@@ -258,14 +263,14 @@
 }
 
 .grid-kiri-atas {
-    height: 200px;
+    /* height: 200px; */
     width: 100%;
     background-size: cover;
     background-position: center;
     border: 5px solid #fff;
     position: relative;
     background-color: #fff;
-    background-image: url(img/Konten\ Gambar\ Website_page-0001.jpg);
+    /* background-image: url(img/Konten\ Gambar\ Website_page-0001.jpg); */
 }
 .timbul {
     position: absolute;
@@ -279,7 +284,13 @@
     flex-direction: column;
     z-index: 100;
     background-color: rgba(0, 0, 0, 75);
+    opacity: 0;
+    transition: 0.3s ease-in-out;
 
+}
+
+.timbul:hover {
+    opacity: 1;
 }
 .timbul .atas {
     font-size: 11px;
@@ -295,7 +306,7 @@
     border: 1px solid #cfdb25 !important;
     font-size: 10px;
     padding: 8px 20px;
-    border-radius: 20%;
+    border-radius: 20px;
     margin-top: 15px;
 }
 .detail svg {
@@ -305,26 +316,26 @@
 .grid-kiri-bawah1 {
     flex-direction: column;
     width: 50%;
-    height: 200px;
+    /* height: 200px; */
     background-size: cover;
     background-position: center;
     border: 5px solid #fff;
     position: relative;
     float: left;
-    background-image: url(img/Konten\ Gambar\ Website_page-0002.jpg);
+    /* background-image: url(img/Konten\ Gambar\ Website_page-0002.jpg); */
     background-color: #fff;
 }
 
 .grid-kiri-bawah2  {
     flex-direction: column;
     width: 50%;
-    height: 200px;
+    /* height: 200px; */
     background-size: cover;
     background-position: center;
     border: 5px solid #fff;
     position: relative;
     float: right;
-    background-image: url(img/Konten\ Gambar\ Website_page-0003.jpg);
+    /* background-image: url(img/Konten\ Gambar\ Website_page-0003.jpg); */
     background-color: #fff;
 }
 
@@ -333,10 +344,10 @@
 }
 .grid-tengah-atas {
     background-color: #fff;
-    background-image: url(img/Konten\ Gambar\ Website_page-0004.jpg);
+    /* background-image: url(img/Konten\ Gambar\ Website_page-0004.jpg); */
     flex-direction: column;
     width: 100%;
-    height: 200px;
+    /* height: 200px; */
     background-size: cover;
     background-position: center;
     border: 5px solid #fff;
@@ -345,10 +356,10 @@
 
 .grid-tengah-bawah {
     background-color: #fff;
-    background-image: url(img/Konten\ Gambar\ Website_page-0006.jpg);
+    /* background-image: url(img/Konten\ Gambar\ Website_page-0006.jpg); */
     flex-direction: column;
     width: 100%;
-    height: 200px;
+    /* height: 200px; */
     background-size: cover;
     background-position: center;
     border: 5px solid #fff;
@@ -356,15 +367,15 @@
 }
 
 .grid-kanan {
-    width: 100%;
+    width: 25%;
     
 }
 .grid-kanan1 {
-    background-image: url(img/Konten\ Gambar\ Website_page-0005.jpg);
+    /* background-image: url(img/Konten\ Gambar\ Website_page-0005.jpg); */
     background-color: #fff;
     flex-direction: column;
     width: 100%;
-    height: 400px;
+    /* height: 400px; */
     background-size: cover;
     background-position: center;
     border: 5px solid #fff;
@@ -372,9 +383,53 @@
 }
 
 
-/* 
+
 .timbul :hover {
     background-color: rgba(0, 0, 0, .75);
-} */
+    transition: .2s;
+}
 
 /* halaman 3 */
+
+/* halaman 4 */
+.halaman4 {
+    padding: 80px 0 30px;
+    display: block;
+    background-color: rgb(240, 236, 236);
+}
+
+.halaman-luar4 {
+    width: 1000px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.heading4 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.content4 {
+    font-size: 13px;
+    color: #555;
+    text-align: center;
+}
+
+.grid-mitra {
+    display: flex;
+}
+
+.logo-mitra {
+    background-color: #fff;
+    border: 1px solid #eee;
+    background-size: 75% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    height: 7rem;
+    width: 200px;
+    margin: 40px 10px;
+}
+
+/* halaman 4 */
