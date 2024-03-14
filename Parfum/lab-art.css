@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "poppins";
+}
+
+/* login */
+/* kiri */
+body {
+    background-color:#F5E9DB ;
+}
+.container {
+    width: 1194px;
+    max-width: 100%;
+    margin: auto;
+    /* height: auto; */
+}
+.login-flex {
+    display: flex;
+}
+
+.login-menu-left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-direction: column;
+    padding: 84px 73px 132px 76px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 166px;
+    height: 166px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+
+.logo img {
+    width: 72px;
+    height: 72px;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.brand {
+    font-style: italic;
+    font-size: 18px;
+    padding-top: 33px;
+}
+
+.login-input {
+    padding-top: 96px;
+}
+.login-input label {
+    font-size: 11px;
+}
+.number {
+    width: 456px;
+    height: 50px;
+    margin-bottom: 19px;
+
+}
+.password {
+    width: 456px;
+    height: 50px;
+    margin-bottom: 33px;
+}
+.tombol {
+    background-color: #000000;
+    width: 456px;
+    height: 82px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+}
+/* kiri */
+
+/* kanan */
+
+.login-menu-right {
+    width: 50%;
+    height: auto;
+    /* padding: 33px 26px; */
+    /* background-image: url(img/Rectangle\ 2.png); */
+    /* background-size: cover; */
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+.content {
+    /* background-position: center; */
+    position: relative;
+    padding: 33px 26px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.deskripsi {
+    width: 477px;
+    height: 176px;
+    position: absolute;
+    /* z-index: 100; */
+    display: flex;
+    flex-direction: column;
+    /* opacity: 1; */
+    background-color:rgba(255, 255, 255, 0.17) ;
+    bottom: 50px;
+    padding: 25px 34.5px;
+    color: #FFFFFF;
+}
+
+.deskripsi .profil {
+    display: flex;
+    text-align: center;
+}
+.parfume {
+    font-size: 31px;
+    text-align: center;
+}
+.designer {
+    font-size: 11;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.deskripsi .arrow {
+    display: flex;
+}
+.deskripsi .isi {
+    display: flex;
+    font-size: 13px;
+}
+
+/* kanan */
+/* login */
