@@ -227,7 +227,7 @@
 /* halaman 3 */
 
 .halaman3 {
-    padding: 80px 0 30px;
+    padding: 80px 0px;
     background-color: rgb(240, 236, 236);
     height: auto;
 }
@@ -405,7 +405,7 @@
 
 /* halaman 4 */
 .halaman4 {
-    padding: 80px 0 30px;
+    /* padding: 80px 0px; */
     display: block;
     background-color: rgb(240, 236, 236);
 }
@@ -454,7 +454,7 @@
 /* halaman 5 */
 
 .halaman5 {
-    padding: 80px 0 30px;
+    padding: 80px 0px;
     display: block;
     background-color: rgb(240, 236, 236);
 }
@@ -533,6 +533,29 @@
 
 /* halaman 6 */
 
+.halaman6 {
+    /* padding: 80px 0; */
+    background-color: rgb(240, 236, 236);
+    height: auto;
+    padding-bottom: 80px;
+    /* margin-bottom: 80px; */
+}
+.halaman-luar6 {
+    width: 1000px;
+    max-width: 100%;
+    margin: auto;
+}
+.top-heading6 {
+    display: flex;
+}
+.top-kiri6 {
+    width: 66.66%;
+}
+.top-kanan6 {
+    width: 33.33%;
+    text-align: right;
+}
+
 .grid-article {
     display: flex;
     justify-content: center;
@@ -583,21 +606,24 @@
 /* footer */
 
 .footer {
-    padding: 80px 0 30px;
+    padding: 50px 0 0;
     /* background-color: rgb(240, 236, 236); */
     height: auto;
     background-color: #8c2370;
     color: #fff;
+    width: 100%;
 }
 
 .footer-luar {
-    width: 1000px;
-    max-width: 100%;
-    margin: auto;
+    margin-bottom: 50px;
 }
 
 .top-footer {
     display: flex;
+    width: 1000px;
+    max-width: 100%;
+    margin: auto;
+    /* padding-bottom: 30px; */
 }
 
 .top-kiri-footer {
@@ -611,14 +637,132 @@
 .top-kanan-footer div a {
     color: #73205b;
     background-color: #cfdb23;
-    border: 1px solid #e71e5f;
+    border: 1px solid #cfdb23;
     padding: 10px 25px;
     border-radius: 5px;
     display: inline-block;
     font-weight: 400 ;
     font-size: 14px;
+
 }
 
 .top-kanan div {
     position: relative;
+}
+
+.bot-footer {
+    position: relative;
+    padding-top: 80px;
+}
+.bot-footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    background: linear-gradient(270deg,#801d65 15.99%,#e0215c 120.07%);
+    /* background-color: #cfdb23; */
+    /* z-index: 100; */
+    border-top-right-radius: 50px;
+}
+
+.flex-content-footer {
+    display: flex;
+    padding-bottom: 20px;
+}
+.content-footer-kiri {
+    width: 50%;
+    padding-right: 40px;
+}
+.content-footer-kiri .footer-logo {
+    max-width: 100%;
+    height: auto;
+}
+.content-footer-kiri .company {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.content-footer-kiri .alamat {
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #ddd;
+}
+
+.bot-footer-luar {
+    position: relative;
+    width: 1000px;
+    max-width: 100%;
+    margin: auto;
+}
+.sosmed {
+    list-style: none;
+}
+.sosmed li {
+    display: inline-block;
+}
+.sosmed li a {
+    width: 35px;
+    height: 35px;
+    background-color: #cfdb23;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sosmed li a svg {
+    width: 20px;
+    height: 20px;
+    color: #8c2370;
+}
+
+.content-footer-tengah {
+    width: 25%;
+    padding-right: 40px;
+}
+.footer-company {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.company-list {
+    list-style: none;
+}
+.company-list li {
+    margin-bottom: 8px;
+    padding-left: 18px;
+}
+.company-list li a {
+    color: #ddd;
+    font-size: 13px;
+}
+
+.content-footer-kanan {
+    width: 25%;
+    padding-right: 40px;
+}
+
+.credit {
+    color: #ddd;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+    display: flex;
+    font-size: 12px;
+}
+.credit-kiri {
+    text-align: left;
+    width: 50%;
+}
+.credit-kanan {
+    text-align: right;
+    width: 50%;
+}
+.credit-ul {
+    list-style: none;
+}
+.credit-ul li {
+    margin: 0 10px;
+    display: inline-block;
 }
