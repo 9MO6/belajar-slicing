@@ -612,6 +612,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    right: 0;
 }
 
 .product-and-search-bar {
@@ -626,7 +627,7 @@ body {
 
 .product-and-search-bar .left {
     width: 50%;
-    display:;
+    /* display:; */
     position: absolute;
     left: 0;
     font-family: "dm serif display";
@@ -715,3 +716,104 @@ body {
     background-color: #EE754F;
 }
 /* lab 5 end */
+
+/* lab 6 */
+
+.flex-content-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 31px;
+
+}
+.content-kiri {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.wrap-content {
+    /* width: 76%; */
+    margin-left: 240px;
+    background-color: #FFFFFF;
+    padding: 35px 42px 55px 40px;
+    position: relative;
+}
+.wrap-content .judul6 {
+    font-family: "dm serif display";
+    font-size: 45px;
+    padding-right: 14px;
+}
+
+.wrap-content .edp {
+    font-size: 11px;
+    padding-left: 47px;
+    position: relative;
+}
+.edp::before {
+    content: "";
+    width: 40px;
+    border: 1px solid #000000;
+    position: absolute;
+    left: 0;
+    top: 7px;
+}
+
+.wrap-content .detail-content {
+    font-size: 14px;
+    padding-top: 26px;
+}
+
+.home-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
+    position: relative;
+    width: 457px;
+    height: 78px;
+    /* left: 0; */
+}
+
+.try-again {
+    width: 220px;
+    height: 78px;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    position: absolute;
+    left: 0;
+}
+
+.home {
+    width: 220px;
+    height: 78px;
+    background-color: black;
+    border: 1px solid black;
+    color: #FFFFFF;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    position: absolute;
+    right: 0;
+}
+.content-kanan {
+    width: 30%;
+    margin-right: 142px;
+    padding-bottom: 114px;
+}
+.image {
+    padding-left: 71px;
+    
+    /* box-shadow: black; */
+}
+
+
+/* lab 6 */
