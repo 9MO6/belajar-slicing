@@ -65,6 +65,10 @@ body {
     padding: 8px;
 }
 
+.nav-bar img {
+    margin-right: 9px;
+}
+
 .feature {
     width: 33.3333%;
     display: flex;
@@ -90,6 +94,8 @@ body {
     border-bottom-right-radius: 5px;
     justify-content: center;
     align-items: center;
+    color: #FFFFFF;
+    font-weight: 500;
 }
 
 
@@ -442,6 +448,16 @@ body {
     content: "3";
 }
 
+/* slide 4 */
+
+.slide-content .black-slide::before {
+    background-color: #000000 ;
+    color: #FFFFFF;
+}
+.slide-content .black-slide {
+    border-bottom: 1px solid #000000;
+}
+
 .next {
     width: 60%;
     color: #FFFFFF;
@@ -526,3 +542,62 @@ body {
     justify-content: center;
     align-items: center;
 }
+/* lab 3 end */
+
+
+
+/* lab 4 */
+
+.white-box-large {
+    width: 468px;
+    height: 58px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    margin-top: 71px;
+    position: relative;
+}
+.white-box-large img {
+    position: absolute;
+    right: 19px;
+}
+
+.option {
+    display: inline-block;
+    position: relative;
+    left: -20px;
+    margin-top: 18px;
+    margin-bottom: 78px;
+
+}
+
+.option div {
+    background-color: #EE754F;
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 8px;
+    border-radius: 5px;
+    padding: 8px 14px 8px 31px;
+    position: relative;
+    display: inline-block;
+}
+
+.option div::before {
+    content: url(img/carbon_close.png);
+    width: 16px;
+    height: 16px;
+    padding-right: 6px ;
+    padding-left: 8px;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+}
+
+.option div:last-child {
+    display: block;
+    width: fit-content;
+}
+
+/* lab 4 */
