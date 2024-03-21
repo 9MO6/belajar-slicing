@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "poppins";
+}
+
+.container {
+    width: 1512px;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+
+/* kuncinya adalah navbar */
+
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    align-items: center;
+    position: relative;
+    height: 72.11px;
+    width: 1311px;
+    border-radius: 5px;
+    background-color: #1B1C37;
+    padding-left: 61px;
+    padding-right: 51.89px;
+    margin-top: 99px;
+    font-weight: 400;
+    font-size: 17.31px;
+    
+}
+
+.profil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profil a {
+    color: #FFFFFF;
+    margin-left: 11.35px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav div {
+    padding-left: 26.35px;
+    padding-top: 23px;
+}
+
+.nav div:first-child {
+    padding-left: 0;
+    border-bottom: 5px solid #7579FF;
+    padding-bottom: 17px;
+}
+
+.contact {
+    display: flex;
+    background-color: #7579FF;
+    width: 174.11px;
+    height: 43.31px ;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+}
+.contact a {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 17.31px;
+}
+/* nav bar end */
+
+/* flex mid */
+
+.flex-mid {
+    display: flex;
+    justify-content: center;
+
+}
+
+.mid-left {
+    width: 45%;
+    position: relative;
+}
+.flex-mid .mid-left .intro {
+    font-size: 96px;
+    font-weight: 500;
+    margin-top: 176.89px;
+    padding-right: 230px;
+    line-height: 105%;
+    position: relative;
+}
+
+.highlight {
+    position: absolute;
+    top: -21px;
+    right: 283px;
+}
+
+.flex-mid .mid-left .talent {
+    font-size: 14px;
+    font-weight: 200;
+    margin-top: 55px;
+    padding-right: 290px;
+}
+
+/* .contact-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.contact-button {
+    background-image: linear-gradient(to right, #B224EF, #7579FF);
+    width: 294px;
+    height: 68x;
+    border: none;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 0;
+    margin-top: 56px;
+}
+
+.contact-button a {
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.contact-button div {
+    width: 21.67px;
+    height: 21.67px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12.17px;
+}
+
+.mid-right {
+    width: 40%;
+    position: relative;
+}
+
+.image {
+    /* padding-right: 149px; */
+    position: absolute;
+    left: -170px;
+    margin-top: 68.89px;
+    /* width: 100%; */
+}
+/* flex mid end */
