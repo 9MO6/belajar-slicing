@@ -315,6 +315,7 @@
 .data-pribadi-home {
     position: absolute;
     top: 67px;
+    width: 963px;
 }
 
 .data-pribadi-home p {
@@ -324,11 +325,17 @@
 }
 .box-putih {
     width: 963px;
-    height: 137px;
+    height: 185px;
     border-radius: 8px;
     background-color: #FFFFFF;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     margin-top: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #383838;
 }
 
 .content-mid {
@@ -446,6 +453,12 @@
 /* profil form */
 /* profil form */
 
+
+/* cuti */
+/* cuti */
+/* cuti */
+
+
 .data-cuti {
     display: flex;
     justify-content: space-between;
@@ -495,7 +508,7 @@
     
 }
 
-.form-cuti {
+.pb-form-cuti {
     background-color: #FFFFFF;
     color: #383838;
 }
@@ -538,12 +551,88 @@
 
 .filter {
     display: flex;
+    margin-top: 20px;
 }
 
+.filter div {
+    margin-right: 10px;
+    display: flex;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.jenis-cuti-button {
+    opacity: 0.3;
+}
+.riwayat-cuti-container {
+    margin-top: 38px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    position: relative;
+    width: 1003px;
+    padding: 19px 45px 18px 40px;
+    left: -20px;
+}
+
+.riwayat-cuti {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 5.6px; */
+}
+
+.riwayat-cuti-left div, .riwayat-cuti-right .rcc {
+    margin-top: 15.6px;
+}
+
+.jenis-cuti b {
+    font-size: 18px;
+    color: #E0215C;
+}
+
+.pending {
+    background-color: #FEF8C3;
+    border-radius: 5px;
+    padding: 4px 19px;
+    border: none;
+    color: #F68F2E;
+    width: 100px;
+    height: 25px;
+}
+.accept {
+    background-color: #003E79;
+    border-radius: 5px;
+    padding: 4px 19px;
+    border: none;
+    color: #FFFFFF;
+    width: 100px;
+    height: 25px;
+}
+.reject {
+    background-color: #F9DEDC;
+    border-radius: 5px;
+    padding: 4px 19px;
+    border: none;
+    color: red;
+    width: 100px;
+    height: 25px;
+}
+
+.riwayat-cuti-right {
+    text-align: end;
+    opacity: 0.33;
+}
+
+.riwayat-cuti-right button {
+
+}
+
+.pb-riwayat {
+    background-color:#FFFFFF ;
+    color: #383838;
+}
 /* riwayat cuti */
 /* riwayat cuti */
 /* riwayat cuti */
-
-
-
-
