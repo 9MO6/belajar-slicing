@@ -56,6 +56,10 @@
     padding-left: 16px;
 }
 
+.login-left input::-webkit-input-placeholder {
+    color: transparent;
+}
+
 .login-left button {
     height: 50px;
     border-radius: 24px;
@@ -91,7 +95,7 @@
 
 /* home page */
 .container-home {
-    width: 100%;
+    /* width: 100%; */
     /* max-width: 100%; */
 }
 
@@ -206,6 +210,10 @@
     gap: 24px;
 }
 
+.box-putih-responsive {
+    display: none;
+}
+
 .box-absen {
     background-color: #FFFFFF;
     border-radius: 12px;
@@ -214,9 +222,9 @@
     align-items: center;
     flex-direction: column;
     height: 137px;
-    width: 305px;
+    width: auto;
     /* text-align: center; */
-    /* padding: 24px 46.83px; */
+    padding: 24px 46.83px;
     /* border-bottom: 2px solid rgba(0, 0, 0, 0.1); */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -269,6 +277,7 @@
     justify-content: center;
     align-items: center;
     bottom: 34px;
+    box-sizing: border-box;
 }
 
 .point {
@@ -620,13 +629,17 @@
     height: 25px;
 }
 
-.riwayat-cuti-right {
+.riwayat-cuti-right :not(.status-cuti) {
     text-align: end;
     opacity: 0.33;
 }
 
-.riwayat-cuti-right button {
+.riwayat-cuti-right button, .detail-cuti {
+    cursor: pointer;
+}
 
+.riwayat-cuti-right .status-cuti {
+    opacity:;
 }
 
 .pb-riwayat {
@@ -636,3 +649,10 @@
 /* riwayat cuti */
 /* riwayat cuti */
 /* riwayat cuti */
+
+/* @media screen and (max-width: 768px) {
+    .page-flex {
+        display: flex;
+        flex-direction: column;
+    }
+} */

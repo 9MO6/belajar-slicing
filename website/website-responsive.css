@@ -1,0 +1,135 @@
+/* login */
+
+@media screen and (max-width: 430px) {
+
+    /* login */
+
+    body {
+        background-color: #bfbfbf;
+    }
+
+    .page-flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .page-flex > .login-right {
+        order: -1;
+        justify-content: center;
+        width: 100%;
+        margin-top: 37px;
+    }
+
+    .page-flex .login-left > h4, p {
+        visibility: hidden;
+        position: relative;
+    }
+    
+    .page-flex .login-left label {
+        display: none;
+        position: relative;
+    }
+    
+    .login-left {
+        width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-top: 40px;
+    }
+
+    .login-left > * {
+        /* margin-bottom: 14px; */
+    }
+
+    .login-left h4:after {
+        visibility: visible; 
+        position: absolute;
+        content: "Welcome to Employees Management System";
+        top: 0;
+        left: 0;
+        font-size: 24px;
+        /* margin-top: 40px; */
+    }
+    
+    .login-left p:after {
+        visibility: visible; 
+        position: absolute;
+        content: "Masukkan email dan kata sandi Anda untuk login ke akun sistem manajemen karyawan Anda.";
+        top: 0;
+        left: 0;
+        /* margin-top: 60px; */
+        font-size: 16px;
+        /* margin-bottom: 108px; */
+    }
+
+    .login-left p {
+        /* margin-bottom: 108px; */
+    }
+
+    .login-left input::-webkit-input-placeholder {
+        color: #bfbfbf;
+    }
+
+
+    .login-right img {
+        width: 269px;
+        height: 244px;
+    }
+    /* home */
+
+    .sidebar {
+        display: none;
+    }
+
+    .flex-home {
+        width: 100%;
+        display: block;
+    }
+
+    .absen-tanggal .absen-grid .jam, .pulang {
+        display: none;
+    }
+
+    .absen-tanggal p {
+        display: none;
+    }
+    .absen-grid { 
+        width: 430px;
+        flex-direction: column;
+        padding: 20px;
+        bottom: 500;
+        
+    }   
+
+    .absen-grid :not(.point) {
+        width: 50%;
+    }
+    
+    .bg-merah {
+        width: 100%;
+        height: 397px;
+        border-bottom-left-radius: 215px;
+        border-bottom-right-radius: 215px;
+        border-bottom: 20px solid;
+    }
+
+    .home-menu-grid {
+        display: none;
+    }
+
+    .box-putih-responsive {
+        display: flex;
+        width: 430px;
+        background-color: white;
+        border-radius: 5px;
+        justify-content: space-between;
+        align-items: center ;
+        padding: 10px;
+    }
+
+    .responsive {
+        /* padding: 20px; */
+        position: relative;
+        bottom: 100;
+    }
+
+}
